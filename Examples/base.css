@@ -1,0 +1,29 @@
+.masthead,
+.page-title,
+.main-content,
+.sidebar,
+.footer-content {
+    color: white;
+    padding: 1em;
+
+}
+
+.masthead {
+    background-color: #b46ae3;
+}
+
+.page-title {
+    background-color: #51a7fa;
+}
+
+.main-content {
+    background-color: #70bf40;
+}
+
+.sidebar {
+    background-color: #f49018;
+}
+
+.footer-content {
+    background-color: #0265c0;
+}
