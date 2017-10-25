@@ -1,10 +1,49 @@
 @supports (grid-area: auto) {
     .container{
         display: grid;
-        grid-template-columns:repeat(2, 1fr 3em);
-        grid-template-rows: 200px 100px;
-        grid-auto-rows: 100px;
-        grid-column-gap: 1rem;
-        grid-row-gap: 1rem;
+        grid-template-columns:repeat(3, 1fr);
+        grid-template-rows: 1fr 3em 2fr 2em;
+        grid-template-areas:
+        "header header header"
+        "menu menu aside"
+        "content content aside"
+        "footer footer aside";
+        max-width: 1000px;
+        height: 1000px;
+        margin: auto;
+    }
+
+    .box1{
+        grid-area: header;
+    }
+
+    .box2{
+        grid-area: menu;
+    }
+
+    .box3{
+        grid-area: content;
+    }
+
+    .box4{
+        grid-area: aside;
+    }
+
+    .box5{
+        grid-area: footer;
+    }
+
+    @media screen and (max-width: 600px){
+        .container{
+            grid-template-columns:1fr;
+            grid-template-rows: repeat(5, 1fr);
+            grid-template-areas:
+            "header "
+            "menu "
+            "aside"
+            "content"
+            "footer";
+            }
     }
 }
+
