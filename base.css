@@ -1,29 +1,35 @@
-.masthead,
-.page-title,
-.main-content,
-.sidebar,
-.footer-content {
+body{
     color: white;
-    padding: 1em;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.item {
+    padding: 1rem;
+    text-align: center;
 
 }
 
-.masthead {
+a{
+    color: #376800;
+}
+
+.box1 {
     background-color: #b46ae3;
 }
 
-.page-title {
-    background-color: #51a7fa;
+.box2 {
+    background-color: #eeeeee;
 }
 
-.main-content {
+.box3 {
     background-color: #70bf40;
 }
 
-.sidebar {
+.box4 {
     background-color: #f49018;
 }
 
-.footer-content {
+.box5 {
     background-color: #0265c0;
 }

@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.menu{
+    display: flex;
+    flex-direction: horizontal;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.menu-item {
+    list-style-type: none;
+}
+
+.content-area{
+    display:flex;
+    flex-direction: row;
+}
+
+.box3{
+    flex: 2;
+}
+
+.box4{
+    flex: 1;
+}
