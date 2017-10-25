@@ -3,6 +3,7 @@
         display: grid;
         grid-template-columns:repeat(3, 1fr);
         grid-template-rows: 1fr 3em 2fr 2em;
+        grid-gap: 1em;
         grid-template-areas:
         "header header header"
         "menu menu aside"
