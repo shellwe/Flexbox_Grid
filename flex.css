@@ -12,6 +12,22 @@
 
 .menu-item {
     list-style-type: none;
+    border: inset thin red;
+    flex: 1;
+    padding: 1rem;
+}
+
+.menu-item:hover{
+    flex: 2;
+    transition: flex 1s;    
+}
+
+.menu-item{
+    order: 2;
+}
+
+.item6{
+    order: 1;
 }
 
 .content-area{
@@ -20,7 +36,26 @@
 }
 
 .box3{
+    height: 850px;
     flex: 2;
+    display: flex;
+    flex-flow: column wrap;
+
+}
+
+.mason{
+    width:200px;
+    border: outset thick blue;
+    margin: 1rem;
+    align-content: space-between;
+}
+
+.mason-tall{
+    height: 225px;
+}
+
+.mason-short{
+    height:150px
 }
 
 .box4{
