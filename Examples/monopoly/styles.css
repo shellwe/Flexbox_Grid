@@ -1,0 +1,29 @@
+.brown{
+	background-color: SaddleBrown;
+}
+.light-blue{
+	background-color: SkyBlue;
+}
+.purple{
+	background-color: DarkOrchid;
+}
+.orange{
+	background-color: Orange;
+}
+.Red{
+	background-color: Red;
+}
+.Yellow{
+	background-color: Yellow;
+}
+.Green{
+	background-color: Green;
+}
+.Blue{
+	background-color: Blue;
+}
+
+.board{
+	grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1.5fr;
+	grid-template-rows: 1.5fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1.5fr;
+}
