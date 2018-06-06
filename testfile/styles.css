@@ -1,0 +1,16 @@
+/* body {
+    display: grid;
+    grid-template-rows: 150px [nav-start] auto 100px [nav-end];
+    grid-template-columns: [header-start] minmax(200px, 3fr) 9fr [header-end];
+  }
+  header {
+    grid-column: header-start / header-end;
+    background-color: red;
+  }
+  nav {
+    grid-row: nav-start / nav-end;
+    background-color: green;
+  }
+   */
+
+   
