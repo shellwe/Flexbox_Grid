@@ -1,41 +1,39 @@
-.box1{
-    background-color: red;
-  }
-  .box2{
-    background-color: green;
-  }
-  .box3{
-    background-color: pink;
-  }
-  .box4{
-    background-color: purple;
-  }
-  .box5{
-    background-color: blue;
-  }
-  .box6{
-    background-color: orange;
-  }
-  .box7{
-    background-color: gray;
-  }
-  .box8{
-    background-color: yellow;
-  }
-  .box9{
-    background-color: skyblue;
-  }
-  .box10{
-    background-color: seagreen;
-  }
+.box1 {
+  background-color: red;
+}
 
-  @supports (grid-area: auto) {
-      .container{
-          display: grid;
-          grid-template-columns: repeat(auto-fit, minmax(25px, 1fr));
-          grid-template-rows: 2fr 1fr;
-          grid-gap: 1rem;
-          height: 100vh;
-      }
+.box2 {
+  background-color: green;
+}
 
-  }
+.box3 {
+  background-color: pink;
+}
+
+.box4 {
+  background-color: purple;
+}
+
+.box5 {
+  background-color: blue;
+}
+
+.box6 {
+  background-color: orange;
+}
+
+.box7 {
+  background-color: gray;
+}
+
+.box8 {
+  background-color: yellow;
+}
+
+.box9 {
+  background-color: skyblue;
+}
+
+.box10 {
+  background-color: seagreen;
+}
